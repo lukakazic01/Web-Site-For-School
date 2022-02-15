@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+html{
+	overflow-x: hidden;
+}
+ul{
+	list-style: none;
+	padding: 0;
+}
+nav{
+	box-shadow: 0px 0px 5px rgba(150,150,150);
+
+}
+body{
+	margin-top: 80px;
+}
+.navbar{
+	padding: 0;
+}
+.navbar-a{
+	color: white;
+	font-size: 1.2rem;
+	padding: 1rem;
+	font-weight: 600;
+
+}
+.navbar-a:after{
+	display: block;
+	content: '';
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+  border-bottom: 3px solid red;
+}
+.navbar-a:hover:after {
+ transform: scaleX(1); 
+}
+.navbar-a:hover{
+	background-color:  rgba(250,250,250);
+	background: linear-gradient(to right, rgb(233, 100, 67), rgb(144, 78, 149));
+	-webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.navbar-toggler{
+	background-color: white;
+	border: none;
+}
+.button-container{
+	padding: 0.5rem 0;
+}
+.pocetna-paragraf{
+	font-size: 0.7rem;
+}
+.btn-princip-rada{
+	color: white;
+	background-color: #FF003F;
+	border: none;
+	font-size: 12px;
+}
+.tretmani-img{
+	object-fit: cover;
+	width: 100%;
+	height: 200px;
+	display: block;
+	transition: 1s ease;
+}
+.img-overlay{
+	position: absolute;
+	opacity: 0;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: black;
+	transition: 0.5s ease;
+}
+.card:hover{
+	box-shadow: 0 0 15px 2px rgb(230 230 230);
+}
+.card:hover .img-overlay{
+	opacity: 0.8;
+}
+.a-overlay{
+	color: white;
+	text-decoration: none;
+}
+.a-overlay:hover{
+	color: #000000;
+}
+footer{
+	background: url('https://www.trajnasminkaalbam.com/wp-content/themes/dt-the7/images/backgrounds/patterns/full/congruent_outline.png');
+	background-color: #101010;
+	height: 100%;
+}
+footer i{
+	color: white
+}
+footer a{
+	text-decoration: none;
+	color: white;
+}
+footer a:hover{
+   background-color:  rgba(250,250,250);
+	background: linear-gradient(to right, rgb(233, 100, 67), rgb(144, 78, 149));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+footer li{
+	transition: 0.5s;
+}
+footer li:hover{
+	transition: 0.5s;
+	font-size: 0.8rem;
+}
+.albam-logo{
+height: 50%;
+width: 50%;
+image-rendering: -webkit-optimize-contrast;
+}
+.svg-logo{
+	display: block;
+}
+ /* ONAMA.HTML */
+
+#onama{
+  margin-top: 80px;
+}
+
+/* KONTAKT.HTML */
+
+#kontakt{
+	margin-top: 80px;
+}
+.input-kontakt{
+	display: block;
+	width: 100%;
+   padding: 10px;
+   outline: none;
+}
+.input-kontakt:focus{
+	border-color: crimson;
+}
+.label-kontakt{
+	margin: 10px 0px;
+}
+textarea{
+   resize: y;
+   padding: 10px;
+   outline: none;
+} 
+textarea:focus{
+	border-color: crimson;
+}
+.adresa-albam{
+	margin: 10px 0px;
+}
+.telefon-albam{
+	margin: 10px 0px;
+}
+.email-albam{
+	margin: 10px 0px;
+}
+
+/* USPESNAFORMA.HTML */
+
+.uspesna-forma{
+	margin-top: 80px;
+}
+
+/* FAQ.HTML */
+
+#Faq{
+	margin-top: 80px;
+}
+
+/* GALERIJA.HTML */
+
+
+/* TRAJNKA SMINKA.HTML, MANIKIR I PEDIKIR.HTML, SVILENE TREPAVICE.HTML, MADERO.HTML */
+.input-usluge{
+	display: block;
+   padding: 5px;
+   outline: none;
+   border: 1px solid grey;
+   position: relative;
+   border-radius: 5px;
+   width: 70%;
+}
+.input-usluge:focus{
+	border-color: crimson;
+}
+.pretraga-container{
+  box-shadow: 1px 1px 5px 2px rgba(225,225,225);
+}
+.galerija-container{
+	 box-shadow: 1px 1px 5px 2px rgba(225,225,225);
+}
+.clanci-container{
+	box-shadow: 1px 1px 5px 2px rgba(225,225,225);
+}
+.clanci-inner img{
+	border-radius:  50%/25%;
+}
+.clanci-inner a{
+	color: black;
+}
+.clanci-inner a:hover{
+	color: blue;
+}
+.img-pedikir{
+	width: 100%;
+}
+
+
+/* PROMOCIJE.HTML */
+
+.slika-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.img-vacuslim{
+	height: 90%;
+}
